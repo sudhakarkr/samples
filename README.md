@@ -86,13 +86,13 @@ The application operator (this may or may not be different than the developer) t
     nginx-ingress-controller        LoadBalancer   10.0.253.208   13.64.241.76   80:32751/TCP,443:30402/TCP   28h
     ```
 
-4. Add the following to your `/etc/hosts` file so you can access the endpoint using the host (servicetracker.oam.io).
+4. Add the following to your `/etc/hosts` file so you can access the endpoint using the host (oam.servicetracker.io).
 
     ```
-    13.64.241.76 servicetracker.oam.io
+    13.64.241.76 oam.servicetracker.io
     ```
 
-5. Visit your browser and type in `servicetracker.oam.io` for the Service Tracker website. Refresh the data on the dashboard for each of the microservices.
+5. Visit your browser and type in `oam.servicetracker.io` for the Service Tracker website. Refresh the data on the dashboard for each of the microservices.
 
     ![Dashboard picture](dashboard.png)
 
